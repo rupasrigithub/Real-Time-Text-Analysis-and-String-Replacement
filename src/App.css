@@ -1,0 +1,115 @@
+/* General body and container styling */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 100%);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App {
+  text-align: center;
+  background: #ffffff;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  padding: 20px;
+  max-width: 600px;
+  width: 90%;
+  margin: 20px;
+  animation: slideIn 1s ease-out;
+}
+
+/* Title styling */
+/* Title styling */
+h1 {
+  font-size: 2.8rem;
+  color: #1e90ff; /* Thick blue color */
+  font-weight: bold; /* Make the font thicker */
+  margin-bottom: 30px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Add subtle shadow for extra thickness */
+}
+
+
+/* Textarea styling */
+textarea {
+  width: 100%;
+  height: 150px;
+  border-radius: 10px;
+  border: 2px solid #ff6f61;
+  padding: 10px;
+  font-size: 1rem;
+  background: rgba(255, 175, 189, 0.2);
+  color: #333;
+  outline: none;
+  transition: background 0.3s, border 0.3s;
+}
+
+textarea:focus {
+  background: rgba(255, 175, 189, 0.4);
+  border-color: #2405aa;
+}
+
+/* String replacement input fields */
+input[type="text"] {
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: 2px solid #fad0c4;
+  width: 100%;
+  font-size: 1rem;
+  transition: border-color 0.3s;
+}
+
+input[type="text"]:focus {
+  border-color: #ff6f61;
+}
+
+/* Button styling */
+button {
+  background-color: #ff6f61;
+  border: none;
+  border-radius: 25px;
+  color: white;
+  padding: 12px 24px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0px 8px 15px rgba(255, 111, 97, 0.2);
+}
+
+button:hover {
+  background-color: #ff3d30;
+  box-shadow: 0px 10px 20px rgba(255, 111, 97, 0.3);
+}
+
+/* Statistic output area */
+.stats {
+  background: linear-gradient(135deg, #fbc2eb 0%, #a6c1ee 100%);
+  padding: 15px;
+  border-radius: 10px;
+  color: white;
+  margin-top: 20px;
+  font-size: 1.2rem;
+}
+
+/* Highlight replaced words */
+.highlight {
+  background-color: #ffff99;
+  color: #ff6f61;
+  font-weight: bold;
+  padding: 2px 5px;
+}
+
+/* Slide-in animation */
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
