@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+# Real-Time Text Analysis and String Replacement
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Overview
 
-## Available Scripts
+This React-based web application allows users to input text in a large textarea and get real-time statistics on the text. It provides functionalities such as counting unique words, counting characters (excluding spaces and punctuation), and dynamically replacing specific strings. The user can also see real-time updates as they type, and the app offers an option to replace and highlight words as needed.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **Real-Time Text Statistics**:
+  - Displays the count of unique words (case-insensitive).
+  - Displays the character count excluding spaces and punctuation.
+  
+- **String Replacement**:
+  - Allows users to enter a string to search and replace it with another string in the text.
+  - Includes a "Replace All" button to replace all occurrences of the searched string.
+  
+- **Optional Bonus**:
+  - Replaced words are highlighted visually in the output.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Tech Stack
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Frontend**: React.js (with functional components and hooks)
+- **Styling**: CSS (with vibrant multicolor and thick designs for the UI)
+- **Deployment**: Deployed using GitHub Pages/Netlify/Vercel
 
-### `npm test`
+## How to Run the Project Locally
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/yourusername/real-time-text-analysis.git
+   cd real-time-text-analysis
+Install Dependencies: Install the required packages using npm or yarn:
 
-### `npm run build`
+npm install
+# or
+yarn install
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Run the Application: Once the dependencies are installed, start the development server:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+npm start
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This will open the app in your default browser at http://localhost:3000.
