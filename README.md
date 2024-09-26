@@ -44,19 +44,8 @@ This will open the app in your default browser at http://localhost:3000.
 
 project structure
 
-real-time-text-analysis/
-├── public/
-│   ├── index.html
-│   └── ...
-├── src/
-│   ├── components/
-│   │   └── TextAnalysis.js
-│   │   └── TextAnalysis.css
-│   ├── App.js
-│   ├── App.css
-│   └── index.js
-├── package.json
-└── README.md
+
+![image](https://github.com/user-attachments/assets/73ad7c8e-cac9-476b-878d-479f0a697fed)
 
 
 Features Explained
